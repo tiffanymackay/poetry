@@ -5,28 +5,18 @@ body {
 }
 nav {
     background-color: #fff !important;
+    max-width: 1200px;
+    margin: auto;
+}
+main {
+    max-width: 1200px;
+    margin: auto;
 }
 
-.intro {
-    max-width: 1300px !important;
-    height: 400px !important;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px
-}
-
-.intro__text {
-    flex-grow: 2;
-    background-color: #F2EEED;
-    height: 100%;
-}
-
-.intro__image {
-    height: 100%;
-}
-.profile {
-    height: 100%;
+.card {
+    margin: 10px auto;
+    background-color: #F2EEED !important;
+    border: none !important;
 }
 
 h1 {
@@ -43,7 +33,7 @@ h3 {
 }
 
 .poetry_items {
-    max-width: 1300px !important;
+    max-width: 1200px !important;
     height: 380px !important;
     display: flex;
     justify-content: space-between;
