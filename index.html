@@ -5,13 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"  content="A portfolio of Tiffany Mackay's poetry." />
-    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/styles/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Tiffany Mackay's poetry portfolio</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between px-5">
+        <a class="navbar-brand px-5" href="#">tiffany liz mackay</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end px-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">poetry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">goodreads</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  
-</body>
+      <div class="intro mx-auto p-5">
+        <div class="intro__image">
+          <img src="/images/profile.png" class="profile">
+        </div>
+        <div class="intro__text px-5 py-4">
+          <h1 class="px-4 pt-5">tiffanyyy lizzz</h1>
+          <h2 class="px-4 pt-2">poet and writer in Seattle, WA</h2>
+          <h3 class="px-4 pt-2">haiku | tanka | haibun | hybrid poems</h3>
+        </div>
+      </div>
+      <div class="container text-center p-3">
+        <h2 class="py-3">recent poems</h2>
+        <div class="poetry_items text-center px-5 mx-auto">
+          <img src="/images/poem.png" class="poem_img">
+          <img src="/images/poem2.png" class="poem_img">
+          <img src="/images/poem3.png" class="poem_img">
+        </div>
+        <br>
+        <div class="poetry_items text-center px-5 mx-auto">
+          <img src="/images/poem4.png" class="poem_img">
+          <img src="/images/poem5.png" class="poem_img">
+          <img src="/images/poem6.png" class="poem_img">
+        </div>
+    </div>
+
+    <footer>
+      <ul class="list-inline text-center py-3">
+        <li class="list-inline-item">
+          <a class="nav-link" href="#">poetry</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="nav-link" href="#">about</a>
+        </li>
+        <li class="list-inline-item">
+          <a class="nav-link" href="#">goodreads</a>
+        </li>
+      </ul>
+      <div class="footer_text text-center">
+        <small class="py-5">
+        © 2021 Tiffany Mackay
+        </small>
+      </div>
+    </footer>
+
+
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
 </html>

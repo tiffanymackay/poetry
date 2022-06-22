@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'Lora' !important;
+    color: #6A645C !important;
+}
+nav {
+    background-color: #fff !important;
+}
+
+.intro {
+    max-width: 1300px !important;
+    height: 400px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px
+}
+
+.intro__text {
+    flex-grow: 2;
+    background-color: #F2EEED;
+    height: 100%;
+}
+
+.intro__image {
+    height: 100%;
+}
+.profile {
+    height: 100%;
+}
+
+h1 {
+    font-weight: 700 !important;
+    font-size: 3rem !important;
+}
+
+h2 {
+    font-size: 1.3rem !important;
+}
+
+h3 {
+    font-size: 1rem !important;
+}
+
+.poetry_items {
+    max-width: 1300px !important;
+    height: 380px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poem_img {
+    height: 100%;
+
+}
