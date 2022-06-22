@@ -18,6 +18,10 @@ main {
     background-color: #F2EEED !important;
     border: none !important;
 }
+.card {
+    margin: 10px auto;
+}
+
 a {
     color: #A289A9 !important;
     text-decoration: none !important;
@@ -57,4 +61,5 @@ h3 {
     background-color: #A289A9 !important;
     color: #fff !important;
     border: 0px !important;
+
 }
