@@ -13,23 +13,28 @@ main {
     margin: auto;
 }
 
-.card {
+.home-card {
     margin: 10px auto;
     background-color: #F2EEED !important;
     border: none !important;
 }
+a {
+    color: #A289A9 !important;
+    text-decoration: none !important;
 
+}
 h1 {
     font-weight: 700 !important;
-    font-size: 3rem !important;
+    font-size: 3.5rem !important;
 }
 
 h2 {
-    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
 }
 
 h3 {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
 }
 
 .poetry_items {
