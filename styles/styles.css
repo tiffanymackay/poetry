@@ -72,3 +72,27 @@ h3 {
     border: 0px !important;
 
 }
+
+/* Back to top button styles */
+.display-button {
+    display: none;
+}
+#button {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background: #A289A9;
+    color: #fff;
+    cursor: pointer;
+    border: none; 
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#button:hover {
+    background: #6A645C;
+  }
