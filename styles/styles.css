@@ -1,7 +1,6 @@
-
 body {
-    font-family: 'Lora' !important;
-    color: #6A645C !important;
+    font-family: 'Baskerville', serif !important;
+    color: #000000 !important;
 }
 nav {
     background-color: #fff !important;
@@ -29,15 +28,16 @@ hr {
 }
 .card {
     margin: 10px auto;
+    border: none !important; /* Add this line to remove the border */
 }
 
 a {
-    color: #37979b !important;
+    color: #506D8E !important;
     text-decoration: none !important;
-
 }
 h1 {
-    font-weight: 700 !important;
+    font-weight: 600 !important; /* Semi-bold */
+    font-style: italic !important; /* Italic */
     font-size: 3.5rem !important;
 }
 
@@ -67,10 +67,9 @@ h3 {
     flex-grow: 0;
 }
 .btn {
-    background-color: #37979b !important;
-    color: #fff !important;
+    background-color: #DBD4E4 !important;
+    color: #000000 !important;
     border: 0px !important;
-
 }
 
 /* Back to top button styles */
@@ -82,8 +81,8 @@ h3 {
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    background: #37979b;
-    color: #fff;
+    background: #DBD4E4;
+    color: #000000;
     cursor: pointer;
     border: none; 
     width: 50px;
