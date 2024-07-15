@@ -95,3 +95,30 @@ h3 {
 #button:hover {
     background: #6A645C;
   }
+
+.newsletter-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #F2EEED;
+    border-radius: 5px;
+}
+
+.newsletter-form .form-control {
+    border: 1px solid #506D8E;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.newsletter-form .btn-primary {
+    background-color: #506D8E;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.img-small {
+    max-width: 300px;
+    object-fit: fit;
+}
