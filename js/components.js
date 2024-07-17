@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a class="nav-link" href="/poetry.html">poetry</a>
                         <a class="nav-link" href="/about.html">about</a>
                         <a class="nav-link" href="/blog.html">blog</a>
+                        <a class="nav-link" href="mailto:tiffanylizmackay@gmail.com" target="_blank">contact</a>
                         <a class="nav-link" href="https://www.goodreads.com/user/show/151699012-tiffany-mackay" target="_blank">goodreads</a>
                         <a class="nav-link" href="https://www.amazon.com/stores/author/B0D9CPLS4T/about?ingress=0&visitId=d81b554d-c3e4-4b00-ba51-df32a7d00137&ref_=ap_rdr" target="_blank">amazon</a>
                     </div>
@@ -45,6 +46,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     <a class="nav-link" href="https://www.goodreads.com/user/show/151699012-tiffany-mackay" target="_blank">goodreads</a>
                 </li>
                 <li class="list-inline-item">
+                    <a class="nav-link" href="mailto:tiffanylizmackay@gmail.com" target="_blank">contact</a>
+                </li>
+                <li class="list-inline-item">
                     <a class="nav-link" href="https://www.amazon.com/stores/author/B0D9CPLS4T/about?ingress=0&visitId=d81b554d-c3e4-4b00-ba51-df32a7d00137&ref_=ap_rdr" target="_blank">amazon</a>
                 </li>
             </ul>
@@ -71,13 +75,6 @@ document.addEventListener("DOMContentLoaded", function() {
             content: "I'm excited to share that my debut poetry collection is available for pre-order!",
             link: "/blog-posts/july-blog-post.html",
             image: "/images/cover_feature.png"
-        },
-        {
-            title: "Another Day, Another Post",
-            date: "February 15, 2023",
-            content: "Here's another blog post. Stay tuned for more updates!",
-            link: "/blog-posts/another-day-another-post.html",
-            image: "/images/blog_post_2.jpg"
         }
     ];
 
