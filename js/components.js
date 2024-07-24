@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Footer component
     const footerHTML = `
         <div class="footer container">
-            <div class="text-center py-3">
+            <div class="newsletter-container text-center py-3">
                 <h3>Let's Connect</h3>
                 <p>Subscribe to my newsletter for exclusive content, event updates, and a peek into my creative process.</p>
                 <form action="https://tiffanylizmackay.podia.com/email_lists/846618/subscriptions" accept-charset="UTF-8" method="post" class="newsletter-form">

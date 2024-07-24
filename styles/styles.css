@@ -28,7 +28,8 @@ hr {
 }
 .card {
     margin: 10px auto;
-    border: none !important; /* Add this line to remove the border */
+    border: none !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add this line for drop shadow */
 }
 
 a {
@@ -38,7 +39,9 @@ a {
 h1 {
     font-weight: 600 !important; /* Semi-bold */
     font-style: italic !important; /* Italic */
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
+    color: #506D8E !important;
+
 }
 
 h2 {
@@ -48,6 +51,18 @@ h2 {
 
 h3 {
     font-size: 1.2rem !important;
+}
+
+.banner-image {
+    max-width: 100%;
+    margin: auto;
+}
+
+.grid-container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .poetry_items {
@@ -96,12 +111,13 @@ h3 {
     background: #6A645C;
   }
 
-.newsletter-form {
-    max-width: 500px;
+.newsletter-container {
+    max-width: 700px;
     margin: auto;
     padding: 20px;
     background-color: #F2EEED;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .newsletter-form .form-control {
@@ -121,4 +137,8 @@ h3 {
 .img-small {
     max-width: 300px;
     object-fit: fit;
+}
+
+.recent-poems {
+  max-width: 100%;
 }
